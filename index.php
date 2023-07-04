@@ -54,6 +54,7 @@
                 <th>Salida</th>
                 <th>Pago</th>
                 <th>Descripción</th>
+                <th>Habitación</th>
             </tr>
             <?php
                 // Configuración de la conexión a la base de datos
@@ -104,6 +105,7 @@
                         echo "<td>".$row['salida']."</td>";
                         echo "<td>".$row['pago']."</td>";
                         echo "<td>".$row['descripcion']."</td>";
+                        echo "<td>".$row['habitacion']."</td>";
                         echo "</tr>";
                     }
                 } else {
